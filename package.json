@@ -1,0 +1,25 @@
+{
+
+  "name": "Arbiter",
+
+  "description": "Arbiter Discord Bot",
+
+  "version": "0.0.0",
+
+  "main": "arbiter.js",
+
+  "scripts": {
+
+    "start": "node arbiter.js"
+
+  },
+
+  "dependencies": {
+
+    "discord.js": "11.1.0",
+
+    "request": "2.81.0"
+
+  }
+
+}
