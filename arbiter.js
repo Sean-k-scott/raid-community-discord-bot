@@ -6,8 +6,8 @@ client.on('ready', () => {
  });
 
 client.on('message', msg => {
- if (msg.content === 'test') {
- msg.reply('test acknowledged');
+ if (msg.content === 'github commit autobuild to 24/7 hosting') {
+ msg.reply('autobuild on commit working');
  }
  });
 
