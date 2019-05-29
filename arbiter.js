@@ -6,28 +6,8 @@ client.on('ready', () => {
  });
 
 client.on('message', msg => {
- if (msg.content === '!help steelskull') {
- msg.author.send('Champ Name: Skullcrusher
-
-Overall tier rating: S
-
-Best Uses: CB / Fire Knight / Arena / Spider’s Den
-
-Mastery Trees:  Offence / Support
-
-Mastery Must Haves: Bring It Down / Warmaster / Rapid response / Cycle of magic / Spirit Haste
-
-Artifact suggestions: Reflex Spd or full Spd
-
-Buddies: Roshcard’s Block Damage in arena = counterattack with no damage taken, Crimson Helm’s Provoke and block damage also = limited damage, Reinbeast for lots of HOTs.
-
-Main Points:
-- Team with post GS Coldheart and Apoth in CB, who’s multi-hit A1 skills will hit the boss more with counterattack or champs like Sephallia who has an A1 HP Burn
-- The above is also useful for Fire Knight to break down shield after boss AOE, without affecting turn meter
-- Heal Reduction A1 skill also useful for blocking Fire Knight’s and Spirit Keep’s boss heals
-- Combine with AOE A1 champs (Bellower, Rae) in Spider’s Den for more AOE damage
-
-Discussion Link: #skullcrusher');
+ if (msg.content === '!help Skullcrusher') {
+ msg.author.send('Champ Name: Skullcrusher \n \n Overall Tier Rating: S \n \n Best Uses: CB / Fire Knight / Arena / Spiders Den \n \n Mastery Trees: Offense / Support \n \n Mastery Must Haves: Bring it Down / Warmaster / Rapid Response / Cycle of Magic / Spirit Haste \n \n Artifact Suggestion: Reflex/SPD or Full SPD \n \n Buddies:\nRoshcard (Block Damage in Arena = Counterattack with no damage taken)\nCrimson Helm (Provoke and Block Damage)\nReinbeast (lots of HOTs)\n\nMain Points:\n- Team with Giant Slayer Coldheart and Apothecary in Clan Boss, multi-hit A1 skills will hit the boss more with counterattack\n- The above is also useful for Fire Knight to break down shield after boss AoE, without affecting turn meter\n- Heal Reduction A1 skill also useful for blocking Fire Knight and Spirit Keep boss heals\n- Combine with AoE champs(Bellower, Rae, Big Un) in Spider Den for more AoE damage\n\nDiscussion Link: #skullcrusher');
  }
  });
 
