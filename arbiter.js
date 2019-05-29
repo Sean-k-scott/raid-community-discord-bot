@@ -7,8 +7,7 @@ client.on('ready', () => {
 
 client.on('message', msg => {
  if (msg.content === '!help steelskull') {
-const user = <client>.users.get('<id>');
- <message>.author.send('Test');
+ msg.author.send('Test');
  }
  });
 
