@@ -6,8 +6,9 @@ client.on('ready', () => {
  });
 
 client.on('message', msg => {
- if (msg.content === 'github commit autobuild to 24/7 hosting') {
- msg.reply('autobuild on commit working');
+ if (msg.content === '!help steelskull') {
+const user = <client>.users.get('<id>');
+ <message>.author.send('Test');
  }
  });
 
