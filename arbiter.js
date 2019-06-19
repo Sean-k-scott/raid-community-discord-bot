@@ -11,7 +11,7 @@ client.on('message', msg => {
 
 // abbreviations
 
-if (msg.content === '!abbr') {
+if (msg.content.toLowerCase() === '!abbr') {
   msg.author.send('**Abbreviations List**\n\n**General**\nAoE = Area of Effect\nCA = Counterattack\nTM = Turn Meter\nSpd = Speed\nA1/A2/A3/A4 = Ability 1, Ability 2 (etc)\nWM = War Master (Tier 6 Offense Mastery)\nGS = Giant Slayer (Tier 6 Offense Mastery)\n\n**Dungeons**\nAK = Arcane Keep\nCB = Clan Boss\nDL = Dragons Lair\nFK = Fire Knight\nFoK = Force Keep\nIG = Ice Golem\nMino = Minotaurs Labyrinth\nMK = Magic Keep\nSD = Spider Den\nSK = Spirit Keep\nVK = Void Keep\n\n1-20 = Difficulty level of dungeon, usually follows the dungeon abbreviation. Examples: FK12, Mino14, SD20.');
 }
 
