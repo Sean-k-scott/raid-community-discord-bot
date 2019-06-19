@@ -35,4 +35,4 @@ if (msg.content === '!help Skullcrusher') || (msg.content === '!help skullcrushe
 
 //login token
 
-client.login('NTgxOTczMTEwNDUwODE1MDMy.XQqezw.dN2mxnoqgHtaMoGN9O4tUDSPwe0');
+client.login('NTgxOTczMTEwNDUwODE1MDMy.XQqg8w.yKOlqniE3Vjv1BC95sb1_7ykS9I');
