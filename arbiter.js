@@ -111,4 +111,4 @@ if (msg.content.toLowerCase() === '!help vrask') {
 
 //login token
 
-client.login('NTgxOTczMTEwNDUwODE1MDMy.XQqg8w.yKOlqniE3Vjv1BC95sb1_7ykS9I');
+<?php include(login-token.php); ?>
